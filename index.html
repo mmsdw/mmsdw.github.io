@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Chenxi Li - Software Engineer</title>
+    <style></style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-logo" onclick="showTab('home')">Chenxi Li</div>
+      <div class="navbar-links">
+        <a onclick="showTab('about')">About</a>
+        <a onclick="showTab('projects')">Resume</a>
+        <a onclick="showTab('contact')">Contact</a>
+      </div>
+    </nav>
+
+    <div id="home" class="tab-content active">
+      <h1>👋 Hi, I'm Chenxi</h1>
+      <p>
+        Navigate through the tabs to learn more about me, my projects, and how
+        to get in touch.
+      </p>
+    </div>
+
+    <div id="about" class="tab-content">
+      <h2>About Me</h2>
+      <p>Hi, I'm Chenxi, a Software Engineer with a passion for NLP.</p>
+      <p>
+        Born and raised in Kunming, Yunnan, China, I moved to Montreal, Canada
+        at fourteen to continue my education. The blend of Chinese and Canadian
+        cultures has deeply shaped my worldview, fostering a curiosity for how
+        technology can address linguistic, cultural, and social challenges.
+      </p>
+      <p>
+        With a Bachelor of Science in Computer Science from
+        <a href="https://www.mcgill.ca/"> McGill University</a>, I hope to
+        create innovative solutions that bridge cultural and linguistic gaps.
+        Currently, I am planning on advancing my expertise in NLP and AI through
+        graduate studies.
+      </p>
+    </div>
+
+    <div id="projects" class="tab-content">
+      <h3>Resume</h3>
+      <a href="assets/CL_CV.pdf">PDF</a>
+      <p class="title-sm">Education</p>
+      <hr />
+      <div class="projects">
+        <div class="project">
+          <img class="icon-logo" src="assets/mcgill.svg.png" />
+          <strong>McGill University</strong> Bachelor of Science in Computer
+          Science
+        </div>
+        <div class="project">
+          <img class="icon-logo" src="assets/marianopolis.png" />
+          <strong>Marianopolis College</strong> Diplôme d'études collégiales in
+          Pure & Applied Science
+        </div>
+      </div>
+    </div>
+
+    <div id="contact" class="tab-content">
+      <h3>Contact Information</h3>
+      <div class="contacts">
+        <a class="link" href="mailto:mmsdwlcx@gmail.com"
+          ><div class="contact">
+            <ion-icon name="mail-outline"></ion-icon>Email
+          </div></a
+        >
+
+        <a class="link" href="https://github.com/mmsdw">
+          <div class="contact">
+            <ion-icon name="logo-github"></ion-icon>GitHub
+          </div>
+        </a>
+
+        <a class="link" href="https://www.linkedin.com/in/chenxi-li-a9158519b/"
+          ><div class="contact">
+            <ion-icon name="logo-linkedin"></ion-icon>LinkedIn
+          </div></a
+        >
+      </div>
+    </div>
+
+
+    <script defer src="script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
